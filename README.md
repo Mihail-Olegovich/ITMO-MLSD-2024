@@ -1,1 +1,1 @@
-# RAG-system-X5
+# text2sql analytical service
