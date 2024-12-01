@@ -83,4 +83,4 @@
 
 #### 2.1. Блок-схема решения  
   
-![scheme](images/query-processing-service-scheme.png)
+![scheme](images/query-processing-service-scheme-v2.png)
