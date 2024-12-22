@@ -1,0 +1,26 @@
+[tool.ruff]
+select = ["E", "F", "W"]
+ignore = ["E501"]
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+
+[tool.poetry]
+name = "itmo-mlsd-2024"
+version = "0.0.1"
+description = ""
+authors = ["Mikhail Kulyaskin <mihail.ru02@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.2"
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
